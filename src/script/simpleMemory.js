@@ -26,9 +26,9 @@ if (initCheck()) {
         '            <!-- 找找看 -->' +
         '            <div class="m-list-title"><span>找找看</span></div>' +
         '            <div class="m-icon-list" id="sb-sidebarSearchBox"></div>' +
-        '            <!-- 积分与排名 -->' +
-        '            <div class="m-list-title"><span>积分排名<span class="iconfont icon-select m-list-title-select"></span></span></div>' +
-        '            <div class="m-icon-list" id="sb-sidebarScorerank"></div>' +
+        '            <!-- 访客来源统计 -->' +
+        '            <div class="m-list-title" style="display: block;"><span>访客来源</span></div>' +
+        '            <a href="https://www.revolvermaps.com/livestats/5h1z51d8hew/"><img src="//rf.revolvermaps.com/h/m/a/0/ff0000/128/0/5h1z51d8hew.png" width="256" height="128" alt="Map" style="border:0;"></a>' +
         '            <!-- 最新随笔 -->' +
         '            <div class="m-list-title"><span>最新随笔<span class="iconfont icon-select m-list-title-select"></span></span></div>' +
         '            <div class="m-icon-list" id="sb-sidebarRecentposts"></div>' +
