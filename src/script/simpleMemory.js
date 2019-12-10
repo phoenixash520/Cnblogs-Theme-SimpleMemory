@@ -88,7 +88,7 @@ if (initCheck()) {
         '<div id="rightMenu"></div>';
 
     window.cnblogsConfigDefault = {
-        GhUserName: 'BNDong',
+        GhUserName: 'phoenixash520',
         GhRepositories: 'Cnblogs-Theme-SimpleMemory',
         GhVersions: 'v1.1.2',
         CnVersions: "",
