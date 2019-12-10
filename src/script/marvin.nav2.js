@@ -49,7 +49,7 @@ $(document).ready(function () {
             if(titleContent.length>26) titleContent=titleContent.substr(0,26) + "...";
             titleContent = HTMLEncode(titleContent);
 
-            j += '<li h="1" g="'+ lserialNum +'"><a href="#' + u.attr('id') + '">' + lserialNum + '.' + rserialNum + '&nbsp;&nbsp;' + titleContent + '</a><span class="sideCatalog-dot"></span></li>';
+            j += '<li h="1" g="'+ lserialNum +'"><a href="#' + u.attr('id') + '">' titleContent + '</a><span class="sideCatalog-dot"></span></li>';
         } else if (v.localName === 'h2') {
             m++; n = 0;
             if(q){
@@ -57,7 +57,7 @@ $(document).ready(function () {
                 if(titleContent.length>30) titleContent=titleContent.substr(0,30) + "...";
                 titleContent = HTMLEncode(titleContent);
 
-                j += '<li h="2" g="'+ lserialNum +'" class="h2Offset ceg'+lserialNum+'"><a href="#' + u.attr('id') + '">' + lserialNum + '.' + rserialNum + '&nbsp;&nbsp;' + titleContent + '</a></li>';
+                j += '<li h="2" g="'+ lserialNum +'" class="h2Offset ceg'+lserialNum+'"><a href="#' + u.attr('id') + '">' titleContent + '</a></li>';
             }
         }
     });
