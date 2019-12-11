@@ -230,9 +230,8 @@ function getVersionConfig() {
     window.cnblogsConfig.CnVersions = window.cnblogsConfig.GhVersions;
     //if (window.cnblogsConfig.GhUserName === 'BNDong') {
 
-    $.getScript('https://gitee.com/dbnuo/Cnblogs-Theme-SimpleMemory/raw/master/version.js', function () {
-    setConfVersion();
-     //   });
+    $.getScript('https://gitee.com/phoenixash/Cnblogs-Theme-SimpleMemory/raw/master/version.js', function () {
+    setConfVersion();});
 
     /*} else {
         var url = 'https://raw.githubusercontent.com/' + window.cnblogsConfig.GhUserName + '/' + window.cnblogsConfig.GhRepositories + '/master/version.conf';
