@@ -7,7 +7,7 @@ require.config({
         }
     },
     paths: {
-        version: 'https://gitee.com/dbnuo/Cnblogs-Theme-SimpleMemory/raw/master/version.conf',
+        version: 'https://github.com/phoenixash520/Cnblogs-Theme-SimpleMemory/blob/v1.2.9/version.conf',
         //-- 菜单滚动条
         optiscroll: setFileNameMin('jquery.optiscroll', 'js'),
         //-- 进度条
