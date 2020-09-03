@@ -7,7 +7,7 @@ require.config({
         }
     },
     paths: {
-        version: 'v1.3.4',
+        version: 'https://blog-static.cnblogs.com/files/phoenixash/version.js',
         //-- 菜单滚动条
         optiscroll: setFileNameMin('jquery.optiscroll', 'js'),
         //-- 进度条
