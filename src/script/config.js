@@ -7,7 +7,7 @@ require.config({
         }
     },
     paths: {
-        version: '',
+        version: 'v1.3.4',
         //-- 菜单滚动条
         optiscroll: setFileNameMin('jquery.optiscroll', 'js'),
         //-- 进度条
