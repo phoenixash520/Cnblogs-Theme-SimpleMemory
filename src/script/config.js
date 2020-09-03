@@ -7,7 +7,7 @@ require.config({
         }
     },
     paths: {
-        version: 'https://cdn.jsdelivr.net/gh/phoenixash520/Cnblogs-Theme-SimpleMemory@v1.3.3/version.conf',
+        version: '',
         //-- 菜单滚动条
         optiscroll: setFileNameMin('jquery.optiscroll', 'js'),
         //-- 进度条
