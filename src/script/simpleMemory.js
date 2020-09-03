@@ -230,7 +230,7 @@ function getVersionConfig() {
     window.cnblogsConfig.CnVersions = window.cnblogsConfig.GhVersions;
     //if (window.cnblogsConfig.GhUserName === 'BNDong') {
 
-    $.getScript('', function () {
+    $.getScript('https://blog-static.cnblogs.com/files/phoenixash/version.js', function () {
     setConfVersion();});
 
     /*} else {
