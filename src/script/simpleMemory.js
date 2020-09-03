@@ -230,7 +230,7 @@ function getVersionConfig() {
     window.cnblogsConfig.CnVersions = window.cnblogsConfig.GhVersions;
     //if (window.cnblogsConfig.GhUserName === 'BNDong') {
 
-    $.getScript('https://github.com/phoenixash520/Cnblogs-Theme-SimpleMemory/blob/v1.2.9/version.conf', function () {
+    $.getScript('https://github.com/phoenixash520/Cnblogs-Theme-SimpleMemory/blob/v1.3.3/version.conf', function () {
     setConfVersion();});
 
     /*} else {
